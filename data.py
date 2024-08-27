@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Get the API key from the environment
-api_key = os.getenv('API_KEY')
+api_key = os.getenv('api_key')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 def loadDataset():
